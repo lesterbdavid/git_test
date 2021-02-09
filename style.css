@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header {
+    background-color: #c0a770;
+    padding: 18px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul a {
+    font-size: small;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    background-color: rgb(150, 88, 88);
+    padding: 109px 0 0;
+}
