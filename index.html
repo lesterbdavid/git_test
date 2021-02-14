@@ -8,18 +8,41 @@
 </head>
 <body>
 
-    <nav class="nav-container">
+    <nav class="navContainer">
         <ul>
             <li><a href="https://mail.google.com/mail/&ogbl" class="nav-link1">Gmail</a></li>
             <li><a href="https://www.google.com.ph/imghp?hl=en&ogbl" class="nav-link2">Images</a></li>
-            <li><a href="https://www.google.com.ph/intl/en/about/products" class="nav-link3"><img src="waffle-icon.png" alt="Google apps"/></a></li>
+            <li><a href="https://www.google.com.ph/intl/en/about/products" class="nav-link3"><img src="images/waffleIcon.png" alt="Google apps"/></a></li>
             <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ" class="nav-link4"><button>Sign in</button></a></li>
         </ul>
     </nav>
     
-    <main class="main-container">
-        <a href="http://127.0.0.1:5500/index.html" class="home"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"></a>
-        <input type="search" name="search" id="search" placeholder="Search google or type URL">
+    <main class="mainContainer">
+        <div class="google">
+            <a href="http://127.0.0.1:5500/index.html"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"></a>
+        </div>
+        <div class="searchContainer">
+            <input class="searchBox" type="text" name="search" placeholder="Search google or type URL"/><img class="searchIcon" src="images/searchIcon.png" alt="search icon"/><img class="searchByVoice" src="images/searchByVoice.png" alt="search by voice icon"/>
+        </div>
+        <div class="button">
+            <input class="btn1" type="submit" value="Google Search"/>
+            <input class="btn2" type="submit" value="I'm Feeling Lucky"/>
+        </div>
     </main>
+    <footer class="footerContainer">
+        <menu class="footerMenu">
+            <ul class="flexStart">
+                <li><a href="https://about.google/?utm_source=google-PH&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                <li><a href="https://www.google.com/intl/en_ph/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+            </ul>
+            <ul class="flexEnd">
+                <li><a href="https://policies.google.com/privacy?hl=en-PH&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-PH&fg=1">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </menu>
+    </footer>
 </body>
 </html>
